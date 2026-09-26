@@ -1,0 +1,21 @@
+.project-list {
+    margin: 0;
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border-left: 3px solid transparent;
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.project:hover,
+.project.selected {
+    background: #f7e5ed;
+    border-left-color: #7b0940;
+    transform: translateX(5px);
+}
