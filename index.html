@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>CV - Hicham HEE</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/cv.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/downloads.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/print.css">
+
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/sidebar.css">
+    <link rel="stylesheet" href="/static/css/cv.css">
+    <link rel="stylesheet" href="/static/css/projects.css">
+    <link rel="stylesheet" href="/static/css/downloads.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
+    <link rel="stylesheet" href="/static/css/print.css">
 </head>
 
 <body>
@@ -26,14 +28,15 @@
 
         <aside class="sidebar">
 
-
             <div class="photo">
-                <img src="photo.png" alt="Photo de Hicham HEE">
+                <img src="/static/photo.png" alt="Photo de Hicham HEE">
             </div>
 
             <section class="side-section">
 
-                <h2 class="side-title">♙ PROFIL</h2>
+                <h2 class="side-title">
+                    Profil
+                </h2>
 
                 <div class="contact-item">
                     <strong>Adresse</strong>
@@ -42,7 +45,7 @@
 
                 <div class="contact-item">
                     <strong>Email</strong>
-                    hehicham2@gmail.com
+                    heehicham2@gmail.com
                 </div>
 
                 <div class="contact-item">
@@ -52,7 +55,9 @@
 
                 <div class="contact-item">
                     <strong>Site web</strong>
-                    <a href="https://github.com/">https://github.com/</a>
+                    <a href="https://github.com/gghhhyhhh" target="_blank">
+                    https://github.com/
+                    </a>
                 </div>
 
                 <div class="contact-item">
@@ -62,11 +67,11 @@
 
             </section>
 
-            <div class="separator"></div>
-
             <section class="side-section">
 
-                <h2 class="side-title">⚙ COMPÉTENCES</h2>
+                <h2 class="side-title">
+                    Compétences
+                </h2>
 
                 <ul>
                     <li>JavaScript</li>
@@ -82,11 +87,11 @@
 
             </section>
 
-            <div class="separator"></div>
-
             <section class="side-section">
 
-                <h2 class="side-title">✓ QUALITÉS</h2>
+                <h2 class="side-title">
+                    Qualités
+                </h2>
 
                 <ul>
                     <li>Autonomie</li>
@@ -99,11 +104,11 @@
 
             </section>
 
-            <div class="separator"></div>
-
             <section class="side-section">
 
-                <h2 class="side-title">♡ CENTRES D'INTÉRÊTS</h2>
+                <h2 class="side-title">
+                    Centres d'intérêts
+                </h2>
 
                 <ul>
                     <li>Graphing</li>
@@ -122,194 +127,419 @@
 
                 <h1>Hicham HEE</h1>
 
-                <p class="job">
+                <div class="job">
                     ALTERNANT DÉVELOPPEUR INFORMATIQUE
-                </p>
+                </div>
 
             </header>
 
             <p class="intro">
                 Étudiant à Zone01 Rouen, en formation dans le développement
                 informatique, je recherche une alternance en informatique ou IT.
-                Sérieux, autonome et adaptable, je souhaite mettre à profit ma capacité
-                d'apprentissage et mon expérience professionnelle dans un
-                environnement technique.
+                Sérieux, autonome et adaptable, je souhaite mettre à profit ma
+                capacité d'apprentissage et mon expérience professionnelle dans
+                un environnement technique.
             </p>
+
+
+            <!-- FORMATIONS -->
 
             <section class="section">
 
-                <h2 class="section-title">EXPÉRIENCES PROFESSIONNELLES</h2>
+                <h2 class="section-title">
+                    Formations
+                </h2>
 
-                <div class="experience">
+                <article class="formation">
 
                     <div class="date">
                         Mars 2026 - En Cours
                     </div>
 
-                    <h3 class="role">
-                        Agent d'entretien - Proxi île la croix (Rouen)
-                    </h3>
+                    <div class="formation-title">
+                        Formation de développeur informatique - Zone 01 (Rouen)
+                    </div>
 
                     <p class="description">
-                        Accueil et orientation du public, travail en équipe, entretien et maintien des espaces.
+                        Formation de développeur informatique Zone01.
+                        Axée 100% sur la pratique et la réalisation de projets
+                        collaboratifs.
                     </p>
 
-                </div>
+                    <p class="description">
+                        Pédagogie peer-to-peer, inclusive et engagée.
+                    </p>
 
-                <div class="experience">
+                    <p class="description">
+                        Parcours intuitif basé sur le jeu et la réalisation
+                        de projets.
+                    </p>
+
+                </article>
+
+
+                <!-- PROJETS -->
+
+                <section class="section">
+
+                    <h2 class="section-title">
+                        Projets
+                    </h2>
+
+                    <div class="project-list">
+
+
+                        <article class="project">
+
+                            <strong>
+                                FORUM — GO / SQLITE
+                            </strong>
+
+                            <p class="description">
+                                <strong>En cours</strong> — Développement d'un
+                                forum web avec système d'authentification,
+                                gestion des utilisateurs, sessions et
+                                publications.
+                            </p>
+
+                            <p class="description">
+                                Mise en place d'une base de données SQLite pour
+                                gérer les utilisateurs, les sessions et les
+                                publications.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, SQLite, HTML, CSS, templates Go, HTTP,
+                                UUID, bcrypt, authentification, sessions,
+                                cookies et gestion des requêtes.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                GROUPIE TRACKER — GO / WEB
+                            </strong>
+
+                            <p class="description">
+                                Application web utilisant une API pour récupérer
+                                et afficher des informations concernant des
+                                artistes, leurs membres, leurs dates et leurs
+                                lieux.
+                            </p>
+
+                            <p class="description">
+                                Développement de fonctionnalités de recherche,
+                                filtres, affichage des données et
+                                géolocalisation.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, API REST, JSON, HTTP, HTML, CSS, JavaScript,
+                                templates Go, filtres et géolocalisation.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                ATM MANAGEMENT SYSTEM — C
+                            </strong>
+
+                            <p class="description">
+                                Développement d'un système de gestion bancaire
+                                permettant de gérer des comptes et des
+                                opérations.
+                            </p>
+
+                            <p class="description">
+                                Travail sur la gestion des fichiers et la
+                                communication entre un client et un serveur.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                C, fichiers, sockets, client/serveur,
+                                communication réseau et gestion des données.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                PUSH-SWAP — GO
+                            </strong>
+
+                            <p class="description">
+                                Implémentation d'un système de tri utilisant
+                                deux piles et différentes opérations de
+                                déplacement.
+                            </p>
+
+                            <p class="description">
+                                Travail sur la compression des valeurs,
+                                les structures de données et l'optimisation
+                                du nombre d'opérations.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, algorithmes, structures de données,
+                                piles, tri et optimisation.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                ASCII-ART — GO
+                            </strong>
+
+                            <p class="description">
+                                Développement d'un programme permettant de
+                                générer des représentations à partir de
+                                caractères ASCII.
+                            </p>
+
+                            <p class="description">
+                                Travail sur le traitement des entrées,
+                                la manipulation de chaînes de caractères
+                                et la génération du résultat.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, chaînes de caractères, fichiers,
+                                traitement de texte et algorithmique.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                ASCII-ART-WEB — GO / WEB
+                            </strong>
+
+                            <p class="description">
+                                Adaptation du projet ASCII-Art sous forme
+                                d'application web permettant à l'utilisateur
+                                d'envoyer des données et d'obtenir un résultat
+                                généré automatiquement.
+                            </p>
+
+                            <p class="description">
+                                Travail sur les requêtes HTTP, les templates
+                                et l'affichage du résultat dans une interface
+                                web.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, API, Web, HTTP, HTML, CSS et templates.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                TETRIS OPTIMIZER
+                            </strong>
+
+                            <p class="description">
+                                Travail sur la logique d'un jeu de type Tetris
+                                et sur la recherche de solutions permettant
+                                d'optimiser les placements.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, algorithmique, logique de jeu,
+                                optimisation et structures de données.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                GIT
+                            </strong>
+
+                            <p class="description">
+                                Utilisation de Git pour la gestion des versions,
+                                le suivi des modifications et le travail sur
+                                différents projets de développement.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, Git et gestion de versions.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                GD-RELOADED
+                            </strong>
+
+                            <p class="description">
+                                Projet de développement informatique permettant
+                                de travailler sur la compréhension et la
+                                modification d'un projet existant.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, algorithmes et manipulation de données.
+                            </p>
+
+                        </article>
+
+
+                        <article class="project">
+
+                            <strong>
+                                MATH-SKILLS — GO
+                            </strong>
+
+                            <p class="description">
+                                Analyse d'un ensemble de données numériques
+                                et calcul de différents indicateurs
+                                statistiques.
+                            </p>
+
+                            <p class="description">
+                                <strong>Technologies :</strong>
+                                Go, statistiques, analyse de données,
+                                calculs mathématiques et algorithmique.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                </section>
+
+            </section>
+
+
+            <!-- EXPÉRIENCES -->
+
+            <section class="section">
+
+                <h2 class="section-title">
+                    Expériences professionnelles
+                </h2>
+
+
+                <article class="experience">
+
+                    <div class="date">
+                        Mars 2026 - En Cours
+                    </div>
+
+                    <div class="role">
+                        Agent d'entretien - Proxi île la croix (Rouen)
+                    </div>
+
+                    <p class="description">
+                        Accueil et orientation du public, travail en équipe,
+                        entretien et maintien des espaces.
+                    </p>
+
+                </article>
+
+
+                <article class="experience">
 
                     <div class="date">
                         Février 2026 - Mars 2026
                     </div>
 
-                    <h3 class="role">
+                    <div class="role">
                         Commerciale - Plénitude (Rouen)
-                    </h3>
+                    </div>
 
                     <p class="description">
-                        Présentation des contrats, traitement des objections et conclusion des ventes.
-                        Travail autonome sur le terrain.
+                        Présentation des contrats, traitement des objections
+                        et conclusion des ventes. Travail autonome sur le terrain.
                     </p>
 
-                </div>
+                </article>
 
-                <div class="experience">
+
+                <article class="experience">
 
                     <div class="date">
                         Avril 2025 - Juin 2025
                     </div>
 
-                    <h3 class="role">
+                    <div class="role">
                         Bénévole - Restau du cœur (Pont Audemer)
-                    </h3>
+                    </div>
 
                     <p class="description">
-                        Accueil et orientation des bénéficiaires, distribution alimentaire, mise en rayon et
+                        Accueil et orientation des bénéficiaires,
+                        distribution alimentaire, mise en rayon et
                         organisation des réserves.
                     </p>
 
-                </div>
+                </article>
 
-                <div class="experience">
+
+                <article class="experience">
 
                     <div class="date">
                         Janvier 2025 - janvier 2025
                     </div>
 
-                    <h3 class="role">
-                        Inventariste / Magasinier - Intermarché & la Halles (Pont Audemer)
-                    </h3>
+                    <div class="role">
+                        Inventariste / Magasinier - Intermarché &amp; la Halles
+                        (Pont Audemer)
+                    </div>
 
                     <p class="description">
-                        Inventaire, scan des articles, gestion des stocks et mise en rayon.
+                        Inventaire, scan des articles, gestion des stocks
+                        et mise en rayon.
                     </p>
 
-                </div>
+                </article>
 
-                <div class="experience">
+
+                <article class="experience">
 
                     <div class="date">
                         Septembre 2021 - Juillet 2023
                     </div>
 
-                    <h3 class="role">
+                    <div class="role">
                         Équipier polyvalent - Mister Food (Pont Audemer)
-                    </h3>
+                    </div>
 
                     <p class="description">
-                        Accueil client, prise de commande, encaissement, préparation des produits, livraisons et
-                        travail en équipe.
+                        Accueil client, prise de commande, encaissement,
+                        préparation des produits, livraisons et travail en équipe.
                     </p>
 
-                </div>
-
-            </section>
-
-            <section class="section">
-
-                <h2 class="section-title">FORMATIONS</h2>
-
-                <div class="formation">
-
-                    <div class="date">
-                        Mars 2026 - En Cours
-                    </div>
-
-                    <h3 class="formation-title">
-                        Formation de développeur informatique - Zone 01 (Rouen)
-                    </h3>
-
-                    <p class="description">
-                        Formation de développeur informatique Zone01
-                    </p>
-
-                    <p class="description">
-                        Axé 100% sur la pratique et la réalisation de projets collaboratifs
-                    </p>
-
-                    <p class="description">
-                        Pédagogie peer-to-peer, inclusive et engagée
-                    </p>
-
-                </div>
-
-            </section>
-
-
-            <section class="section">
-
-                <h2 class="section-title">Projets</h2>
-
-                <div class="project-list">
-
-                    <div class="project">
-                        <strong>FORUM — GO / SQLITE (En cours)</strong>
-                        Forum web, authentification et gestion des sessions.
-                    </div>
-
-                    <div class="project">
-                        <strong>GROUPIE TRACKER — GO / WEB</strong>
-                        Application web, API, filtres et géolocalisation.
-                    </div>
-
-                    <div class="project">
-                        <strong>ATM MANAGEMENT SYSTEM — C</strong>
-                        Gestion bancaire, fichiers et sockets client/serveur.
-                    </div>
-
-                    <div class="project">
-                        <strong>ASCII-ART — GO</strong>
-                        Génération et traitement d'images ASCII.
-                    </div>
-
-                    <div class="project">
-                        <strong>TETRIS OPTIMIZER</strong>
-                        Logique de jeu et optimisation.
-                    </div>
-
-                    <div class="project">
-                        <strong>G0-RELOADED</strong>
-                        Développement informatique.
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <section class="section">
-
-                <div class="formation">
-
-                    <div class="date">
-                        Septembre 2021 - Juillet 2023
-                    </div>
-
-                    <h3 class="formation-title">
-                        CAP Production et Service en Restauration - CFAIE de Val-deReuil (Val-de-Reuil)
-                    </h3>
-
-                </div>
+                </article>
 
             </section>
 
@@ -317,8 +547,8 @@
 
     </div>
 
-    <script src="js/sections.js"></script>
-    <script src="js/projects.js"></script>
+    <script src="/static/js/sections.js"></script>
+    <script src="/static/js/projects.js"></script>
 
 </body>
 
