@@ -3,101 +3,95 @@
     min-height: 297mm;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 66mm 1fr;
+    grid-template-columns: 62mm 1fr;
     background: #ffffff;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.10);
     overflow: hidden;
 }
 
 .main {
-    padding: 35px 35px 30px;
+    padding: 32px 32px 28px;
 }
 
 .header {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
     margin: 0;
-    font-size: 34px;
+    font-size: 32px;
     line-height: 1.1;
     font-weight: 700;
     color: #222222;
 }
 
 .job {
-    margin-top: 8px;
-    font-size: 17px;
-    font-weight: bold;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 600;
     color: #7b0940;
 }
 
 .intro {
-    margin: 0 0 20px 0;
-    padding: 16px 18px;
-    background: #f7d5e2;
-    border-radius: 0;
-    font-size: 13px;
+    margin: 0 0 22px;
+    padding: 12px 0;
+    background: transparent;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    font-size: 12px;
     line-height: 1.5;
-    text-align: justify;
+    text-align: left;
 }
 
 .section {
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
 .section-title {
-    margin: 0 0 15px;
-    padding-bottom: 6px;
-    border-bottom: 2px solid #7b0940;
+    margin: 0 0 12px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #7b0940;
     color: #7b0940;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 .experience,
 .formation {
-    margin-bottom: 18px;
-    padding: 8px 10px;
-    border-left: 3px solid transparent;
-    transition:
-        transform 0.2s ease,
-        background 0.2s ease,
-        box-shadow 0.2s ease;
+    margin-bottom: 13px;
+    padding: 0;
+    border-left: none;
 }
 
 .experience.active,
 .formation.active,
 .experience:hover,
 .formation:hover {
-    background: #f7e5ed;
-    border-left-color: #7b0940;
-    transform: translateX(5px);
-}
-
-.experience.active,
-.formation.active {
-    transform: translateX(5px);
+    background: transparent;
+    border-left: none;
+    transform: none;
 }
 
 .date {
-    margin-bottom: 3px;
-    font-size: 11px;
-    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 10px;
+    font-weight: 600;
     color: #666666;
 }
 
 .role,
 .formation-title {
-    margin-bottom: 5px;
-    font-size: 13px;
-    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 12px;
+    line-height: 1.35;
+    font-weight: 700;
     color: #222222;
 }
 
 .description {
     margin: 0;
-    font-size: 12px;
-    text-align: justify;
+    font-size: 11px;
+    line-height: 1.45;
+    text-align: left;
 }
