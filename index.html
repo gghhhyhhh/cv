@@ -11,13 +11,13 @@
 
     <title>CV - Hicham HEE</title>
 
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/sidebar.css">
-    <link rel="stylesheet" href="css/cv.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/downloads.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/print.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/sidebar.css">
+    <link rel="stylesheet" href="/static/css/cv.css">
+    <link rel="stylesheet" href="/static/css/projects.css">
+    <link rel="stylesheet" href="/static/css/downloads.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
+    <link rel="stylesheet" href="/static/css/print.css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
 
             <div class="photo">
                 <img
-                    src="photo.png"
+                    src="/static/photo.png"
                     alt="Photo de Hicham HEE"
                 >
             </div>
@@ -152,7 +152,7 @@
                 </h2>
 
                 <ul>
-                    <li>Graphing</li>
+                    <li>Grappling</li>
                     <li>MMA</li>
                     <li>Voyage</li>
                     <li>Découverte</li>
@@ -200,34 +200,7 @@
                  FORMATION
                  ========================= -->
 
-            <section class="section">
-
-                <h2 class="section-title">
-                    Formation
-                </h2>
-
-
-                <article class="formation">
-
-                    <div class="date">
-                        Mars 2026 - En Cours
-                    </div>
-
-                    <div class="formation-title">
-                        Formation de développeur informatique
-                        - Zone 01 (Rouen)
-                    </div>
-
-                    <p class="description">
-                        Formation de développeur informatique Zone01.
-                        Axé 100% sur la pratique et la réalisation de projets
-                        collaboratifs. Pédagogie peer-to-peer, inclusive et
-                        engagée.
-                    </p>
-
-                </article>
-
-            </section>
+            
 
 
             <!-- =========================
@@ -236,134 +209,84 @@
 
             <section class="section">
 
-                <h2 class="section-title">
-                    Projets
-                </h2>
+    <h2 class="section-title">
+        Projets
+    </h2>
 
-                <div class="project-list">
+    <div class="project-list">
 
+        <article class="project">
+            <strong>FORUM</strong>
+            <span>Go, SQLite, HTTP</span>
+            <p>
+                Développement d'un forum web en Go avec authentification,
+                gestion des sessions et création de publications.
+                Utilisation de SQLite pour stocker les utilisateurs,
+                les sessions et les publications.
+                Ce projet permet de travailler sur les bases du développement
+                web côté serveur, la gestion des utilisateurs et les bases
+                de données.
+            </p>
+        </article>
 
-                    <article class="project">
+        <article class="project">
+            <strong>GROUPIE TRACKER</strong>
+            <span>Go, API, Web, HTML, CSS, JavaScript</span>
+            <p>
+                Développement d'une application web utilisant une API pour
+                récupérer et afficher les informations de groupes musicaux.
+                Mise en place de filtres, recherche de données et
+                géolocalisation.
+                Ce projet permet de travailler avec les API, la manipulation
+                de données et la création d'interfaces web dynamiques.
+            </p>
+        </article>
 
-                        <strong>
-                            FORUM
-                        </strong>
+        <article class="project">
+            <strong>ATM MANAGEMENT SYSTEM</strong>
+            <span>C, Fichiers, Sockets, Client/Serveur</span>
+            <p>
+                Développement d'une application de gestion bancaire en C.
+                Gestion des données avec des fichiers et communication entre
+                un client et un serveur grâce aux sockets.
+                Ce projet permet de travailler sur la programmation système,
+                la communication réseau et l'organisation des données.
+            </p>
+        </article>
 
-                        <span>
-                            Go , SQLite
-                        </span>
+        <article class="project">
+            <strong>PUSH-SWAP</strong>
+            <span>Go, Algorithmes, Structures de données</span>
+            <p>
+                Projet consacré au tri et à la manipulation de structures
+                de données.
+                Travail sur différents algorithmes afin de rechercher une
+                solution efficace avec un nombre limité d'opérations.
+                Ce projet permet de renforcer les compétences en algorithmique,
+                optimisation et raisonnement logique.
+            </p>
+        </article>
 
-                        <p>
-                            Forum web développé en Go. Authentification des
-                            utilisateurs, gestion des sessions, création et
-                            affichage des publications et stockage des données
-                            avec SQLite.
-                        </p>
+        <article class="project">
+            <strong>NOVA</strong>
+            <span>Projet personnel - En cours | Rust, SQLite, SearXNG, Web</span>
+            <p>
+                Projet personnel de moteur de recherche développé en Rust.
+                NOVA combine une base locale SQLite avec une recherche web
+                utilisant SearXNG.
+                Le projet intègre plusieurs types de recherches, notamment
+                le web, les images, les vidéos, les actualités et les cartes.
+                Un espace forum permet également aux utilisateurs de partager
+                leurs projets et de s'entraider.
+                Ce projet permet de développer mes compétences en Rust,
+                développement web, bases de données, recherche d'informations
+                et architecture d'une application complète.
+            </p>
+        </article>
 
-                    </article>
+    </div>
 
-
-                    <article class="project">
-
-                        <strong>
-                            GROUPIE TRACKER
-                        </strong>
-
-                        <span>
-                            Go , API , Web
-                        </span>
-
-                        <p>
-                            Application web utilisant une API pour récupérer
-                            et afficher les informations des groupes. Mise en
-                            place de filtres, recherche de données et
-                            géolocalisation.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project">
-
-                        <strong>
-                            ATM MANAGEMENT SYSTEM
-                        </strong>
-
-                        <span>
-                            C , Fichiers , Sockets , Client/Serveur
-                        </span>
-
-                        <p>
-                            Application de gestion bancaire développée en C.
-                            Gestion des données avec des fichiers et
-                            communication entre un client et un serveur
-                            avec des sockets.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project">
-
-                        <strong>
-                            PUSH-SWAP
-                        </strong>
-
-                        <span>
-                            Go , Algorithmes , Structures de données
-                        </span>
-
-                        <p>
-                            Projet basé sur le tri et la manipulation de
-                            structures de données. Travail sur les algorithmes
-                            et la recherche d'une solution efficace.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project">
-
-                        <strong>
-                            GIT
-                        </strong>
-
-                        <span>
-                            Go, Git, gestion de versions
-                        </span>
-
-                        <p>
-                            Utilisation de Git pour la gestion des versions, le suivi des modifications
-                            et le travail sur différents projets de développement.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project">
-
-                        <strong>
-                            NOVA
-                        </strong>
-
-                        <span>
-                            Projet personnel - En cours: Rust, SQLite, SearXNG, Web
-                        </span>
-
-                        <p>
-                            Projet personnel de moteur de recherche permettant
-                            de rechercher des informations et des projets.
-                            Intégration d'une recherche web, d'une base locale
-                            et d'un espace forum pour permettre aux utilisateurs
-                            de partager leurs connaissances et de s'entraider.
-                        </p>
-
-                    </article>
-
-
-                </div>
-
-            </section>
+</section>
 
 
             <!-- =========================
@@ -475,7 +398,38 @@
 
             </section>
 
-        </main>
+        
+
+<section class="section">
+
+                <h2 class="section-title">
+                    Formation
+                </h2>
+
+
+                <article class="formation">
+
+                    <div class="date">
+                        Mars 2026 - En Cours
+                    </div>
+
+                    <div class="formation-title">
+                        Formation de développeur informatique
+                        - Zone 01 (Rouen)
+                    </div>
+
+                    <p class="description">
+                        Formation de développeur informatique Zone01.
+                        Axé 100% sur la pratique et la réalisation de projets
+                        collaboratifs. Pédagogie peer-to-peer, inclusive et
+                        engagée.
+                    </p>
+
+                </article>
+
+            </section>
+
+</main>
 
     </div>
 
@@ -484,8 +438,8 @@
          JAVASCRIPT
          ========================= -->
 
-    <script src="js/sections.js"></script>
-    <script src="js/projects.js"></script>
+    <script src="/static/js/sections.js"></script>
+    <script src="/static/js/projects.js"></script>
 
 </body>
 
