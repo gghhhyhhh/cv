@@ -46,7 +46,7 @@
 
         padding: 18px 15px;
 
-        background: #f3c6d8 !important;
+        background: #123B66 !important;
 
         overflow: hidden;
 
@@ -116,7 +116,7 @@
         margin: 0 0 12px;
         padding: 12px 15px;
 
-        background-color: #f7d5e2 !important;
+        background-color: #E8F1FA !important;
 
         border: none;
         border-radius: 0;
@@ -181,5 +181,20 @@
     .cv-actions,
     .download-page {
         display: none !important;
+    }
+}
+@media print {
+    .sidebar {
+        background: #123B66 !important;
+        color: #FFFFFF !important;
+    }
+
+    .side-title {
+        color: #FFFFFF !important;
+        border-bottom-color: #8CB7E8 !important;
+    }
+
+    .sidebar a {
+        color: #FFFFFF !important;
     }
 }

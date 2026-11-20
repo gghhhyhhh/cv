@@ -1,5 +1,5 @@
 .sidebar {
-    background: #f3c6d8;
+    background: #123B66;
     padding: 24px 18px;
 }
 
@@ -59,4 +59,23 @@
     height: 1px;
     margin: 12px 0;
     background: #333333;
+}
+
+/* THEME BLEU PROFESSIONNEL */
+.sidebar {
+    background: #123B66;
+    color: #FFFFFF;
+}
+
+.side-title {
+    color: #FFFFFF;
+    border-bottom-color: #8CB7E8;
+}
+
+.sidebar a {
+    color: #FFFFFF;
+}
+
+.separator {
+    background: #8CB7E8;
 }
